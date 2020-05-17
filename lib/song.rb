@@ -39,4 +39,5 @@ class Song
         hash[v.genre] = 1 
       end
     end
+  end
 end
