@@ -40,5 +40,6 @@ class Song
         hash[v.genre] = 1 
       end
     end
+    return hash
   end
 end
