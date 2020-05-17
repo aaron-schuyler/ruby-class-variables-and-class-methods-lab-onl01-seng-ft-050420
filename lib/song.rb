@@ -26,6 +26,11 @@ class Song
     @artist = artist
     @@artists << artist
   end
-  def self.genre_count(genre)
+  def genre=(genre)
+    @genre = genre
+    @@genres << genre
+  end
+  def self.genre_count
+    hash = {}
     @@
 end
