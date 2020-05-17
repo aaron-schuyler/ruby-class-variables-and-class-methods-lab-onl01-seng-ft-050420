@@ -34,11 +34,11 @@ class Song
   end
   def self.genre_count
     hash = {}
-    @@songs.each do |v|
-      if hash[v.genre]
-      hash[v.genre] +=1
+    @@genres.each do |v|
+      if hash[v]
+      hash[v] +=1
       else
-        hash[v.genre] = 1 
+        hash[v] = 1 
       end
     end
     return hash
