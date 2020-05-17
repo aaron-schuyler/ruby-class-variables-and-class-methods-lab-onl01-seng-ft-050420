@@ -43,4 +43,15 @@ class Song
     end
     return hash
   end
+  def self.artist_count
+    hash = {}
+    @@artists.each do |v|
+      if hash[v]
+      hash[v] +=1
+      else
+        hash[v] = 1 
+      end
+    end
+    return hash
+  end
 end
